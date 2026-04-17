@@ -110,3 +110,28 @@ ul li {
     padding: 40px 15px;
   }
 }
+
+.level {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  letter-spacing: 0.5px;
+}
+
+/* BASIC */
+.level.basic {
+  color: #2ecc71;
+}
+
+/* INTERMEDIATE */
+.level.intermediate {
+  color: #f1c40f;
+}
+
+/* ADVANCED */
+.level.advanced {
+  color: #e74c3c;
+}
